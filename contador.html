@@ -10,16 +10,19 @@
 </head>
 <body>
  <center>
-<h1>Contador</h1>
+<h1>Criador de Contador</h1>
+<h2>Nome do Contador</h2>
+<input id="nomeCont"></input>
+<button onclick="criaCont()">Criar Contador</button>
 
-<div>
-<h3 id="contadorval"> 0 </h3>
+
+<div id="pai">
+    <div class="novadiv" onclick="clicaAqui()">
+        <h3>Número de Contadores</h3>
+    <h3 id="contadorval"> 0 </h3>
+    </div>
 </div>
 
-<div class="divprincipal" >
-<div onclick="clicaAqui()"> clique aqui! </div>
-<button onclick="resetarAqui()">zerar contador!</button>
-</div>
 </center>
 </body>
 </html>
